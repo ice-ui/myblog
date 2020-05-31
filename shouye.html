@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .shouye {
+            width: 350px;
+            height: 400px;
+            /* background-color: pink; */
+            margin: 100px auto;
+        }
+        
+        .shouye1 {
+            text-align: center;
+        }
+        
+        .title1 {
+            position: relative;
+            /* background-color: red; */
+        }
+        
+        .first,
+        .second {
+            position: absolute;
+            top: 0;
+        }
+        
+        .first {
+            left: 100px;
+        }
+        
+        .second {
+            right: 100px;
+        }
+        
+        .title2 {
+            height: 200px;
+            /* background-color: red; */
+            margin-top: 50px;
+        }
+        
+        th {
+            width: 80px;
+        }
+        
+        .bottom {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="shouye">
+        <div class="shouye1">
+            <h3 class="title">数据表的增删改查</h3>
+        </div>
+        <div class="title1">
+            <a href="#" class="first">增加</a>
+            <a href="#" class="second">查找</a>
+
+        </div>
+        <div class="title2">
+            <table border="1" cellpacing="1" cellpadding="1">
+                <thead>
+                    <tr>
+                        <th>编号</th>
+                        <th>歌手名</th>
+                        <th>歌曲名</th>
+                        <th>操作</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>毛不易</td>
+                        <td>入海</td>
+                        <td><a href="#">修改</a>&ensp;<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>陈奕迅</td>
+                        <td>人来人往</td>
+                        <td><a href="#">修改</a>&ensp;<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>周杰伦</td>
+                        <td>简单爱</td>
+                        <td><a href="#">修改</a>&ensp;<a href="#">删除</a></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>伍佰</td>
+                        <td>last dance</td>
+                        <td><a href="#">修改</a>&ensp;<a href="#">删除</a></td>
+                    </tr>
+
+                </tbody>
+            </table>
+            <div class="bottom">第1页，共1页</div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>
